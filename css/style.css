@@ -344,9 +344,8 @@
 	}
 	
 	#portfolio-filter {
-		border-bottom:1px solid #ededed;
 		overflow:hidden;
-		padding:15px 0;
+		padding:15px 0 0 15px;
 	}
 	#portfolio-filter li a {
 		float:left;
@@ -474,20 +473,16 @@
 	.skills-section {
 		width:300px;
 	}
-	/*-------------------------------------------------------*/
+	
 		/* Portfolio */
-	/*-------------------------------------------------------*/
-	/*#portfolio-list {
+	
+	#portfolio-filter{
 		width:750px;
+		margin-right:10px;
 	}
-  
-	#portfolio-list li {
-
-		margin-right:50px;
-	}
-	/*-------------------------------------------------------*/
+	/
 		/* Contact */
-	/*-------------------------------------------------------*/
+	
 	.contact-info {
 		width:250px;
 	}
@@ -568,11 +563,8 @@
 	/*-------------------------------------------------------*/
 		/* Portfolio */
 	/*-------------------------------------------------------*/
-	#portfolio-list {
-		width:450px;
-	}
-	#portfolio-list li {
-		margin-right:40px;
+	#portfolio-filter{
+		width:420px;
 	}
 	/*-------------------------------------------------------*/
 		/* Contact */
@@ -587,7 +579,7 @@
 	
 
 }
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
 @media only screen and (max-width: 479px) {
 	
 	#container {
@@ -612,7 +604,7 @@
 		height:50px;
 		margin-bottom:5px;
 	}
-	/* About */
+
 	.about {
 		width:280px;
 		display:block;
@@ -651,9 +643,7 @@
 	.personal-info li {
 		font-size:13px;
 	}
-	/*-------------------------------------------------------*/
-		/* Menu */
-	/*-------------------------------------------------------*/
+
 	.tabs {
 		padding-left:0px;
 	}
@@ -662,9 +652,6 @@
 		width:75px;
 		font-size:14px;
 
-	}
-	.tabs li.active {
-		background: none;
 	}
   
 		/* Resume */
@@ -682,9 +669,9 @@
 	.skills li  {
 		width:280px;
 	}
-	/*-------------------------------------------------------*/
+  
 		/* Portfolio */
-	/*-------------------------------------------------------*/
+	
 	#portfolio-list {
 		width:280px;
 	}
