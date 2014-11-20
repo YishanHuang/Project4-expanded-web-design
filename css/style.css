@@ -16,32 +16,25 @@
 	}
 	#content {
 		background-color:#FFF;
-		-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-		-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 	}
 	
 	.hidden {
 		display: none;
 	}
-	.clear {
-		clear:both;
-	}
-	
-  
+ 
   h1 {font-size: 37px;}
 	h2 {font-size: 30px;}
 	h3 {font-size: 20px;}
 	h4 {font-size: 15px;}
 	h5 {font-size: 13px;}
 	
-	h3.main-heading {
+	h3.resume-title {
 		background-image:url('../images/plus.png');
 		background-repeat: no-repeat;
 		background-position:left 2px;
 		margin:15px 2px;
 	}
-	h3.main-heading span {
+	h3.resume-title span {
 		border-bottom:1px solid #999;
 		padding-bottom:7px;
 		color:#333;
@@ -297,8 +290,7 @@
 		color: #999;
 	}
 	.timeline li .timelineUnit p {
-		color: #666;
-		font-size:12px;
+		font-size:13px;
 		margin-top:5px;
 	}
 
@@ -317,6 +309,7 @@
     font-size:13px;
 		padding-left:30px; 
     line-height:17px;
+    color: #444;
 	}
 	.skills li h4 {
 		float:left;
@@ -334,6 +327,12 @@
 		float:right;
 	}
   
+  .skill li p {
+    color: #666;
+		font-size:20px;
+		
+	}
+      
   
     #portfolio {
 		padding:0 20px 20px 20px;
