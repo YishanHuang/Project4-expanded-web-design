@@ -18,6 +18,8 @@
 		background-color:#FFF;
 	}
 	
+  
+  
 	.hidden {
 		display: none;
 	}
@@ -196,50 +198,46 @@
 
 	.menu {
 		height:100px;
-		background-color:#ededed;
 		position:relative;
 	}
 	.tabs {
 		height:116px;
 		position: absolute;
 		margin-top:-14px;
-		padding-left:130px;
-		z-index:100;
 	}
 	.tabs li {
 		float:left;
 		height:116px;
 	}
 	.tabs li > a {
-		padding-top:80px;
+		padding-top:60px;
 		width:115px;
 		height:35px;
 		display:block;
 		background-repeat:no-repeat;
-		font-size:16px;
-		color:#b9b9b9;
+		font-size:20px;
 		text-align:center;
+    color: #333;
 	}
-	.tabs li.active {
-		background:url('../images/tab-hover.png') no-repeat;
-	}
+
+
 	.tabs li.active a {
 		color:#fdc62a;
 	}
 	.tabs li .tab-profile {
-		background-image:url(../images/profile-icon.png);
+		background-color:#fdc62a ;
 		background-position:center 40px;
 	}
 	.tabs li .tab-resume {
-		background-image:url(../images/resume-icon.png);
+		background-color:#fdc62a;
 		background-position:center 30px;
 	}
 	.tabs li .tab-portfolio {
-		background-image:url(../images/portfolio-icon.png);
+		background-color:#fdc62a;
 		background-position:center 35px;
 	}
 	.tabs li .tab-contact {
-		background-image:url(../images/contact-icon.png);
+		background-color:#fdc62a;
 		background-position:center 41px;
 	}
 
