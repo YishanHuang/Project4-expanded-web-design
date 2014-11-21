@@ -1,6 +1,6 @@
 
 	body {
-		background-color: #E8E8E8;
+		background-color: #FDD42F;
 		margin: 0px;
 		padding: 0px;
 		font-family:'Open Sans', Arial;
@@ -51,22 +51,7 @@
 		margin-bottom:20px;
 		overflow:hidden;
 	}
-	/* Logo */
-		#logo {
-		float:left;
-		margin-left:10px;
-	}
-	#logo h2 {
-		font-size:30px;
-		font-weight:900;
-		color: #444;
-		line-height:40px;
-	}
-	#logo h4 {
-		color:#666;
-		line-height:20px;
-	}
-
+	
 	.socialicons {
 		float:right;
 		margin-top:18px;
@@ -78,14 +63,7 @@
 		padding:0;
 		margin-right:2px;
 	}
-
-	.social-text {
-		float:left;
-		padding:9px;
-		height:12px;
-		background-color:#222;
-		color:#FFF;
-	}
+  
 	.social-facebook {
 		float:left;
 		width:30px;
@@ -197,7 +175,6 @@
 	}
 
 	.menu {
-		height:100px;
 		position:relative;
 	}
 	.tabs {
@@ -494,30 +471,12 @@
 	#container {
 		width:470px;
 	}
-	/*-------------------------------------------------------*/
+	
 		/* Top Section */
-	/*-------------------------------------------------------*/	
-	/* Logo */
-	#logo h2 {
-		font-size:25px;
-		font-weight:900;
-		color: #444;
-		line-height:30px;
-	}
-	#logo h4 {
-		color:#666;
-		line-height:15px;
-	}
-	/* Social icons */
 	.socialicons {
 		margin-top:9px;
 	}
-	.social-text {
-		display:none;
-	}
-	/*-------------------------------------------------------*/
-		/* Profile Section */
-	/*-------------------------------------------------------*/
+	
 	/* About */
 	.about {
 		width:420px;
