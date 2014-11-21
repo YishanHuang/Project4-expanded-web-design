@@ -143,13 +143,15 @@
 		margin-top:15px;
 		color:#bc9010;
 		line-height:20px;
+    
 	}
 	
 	.personal-info {
+    width: 300px;
 		float:left;
 		margin-top:30px;
 		min-height:230px;
-		margin-left:110px;
+		margin-left:20px;
     line-height: 1;
 		padding:20px 0 0 20px;
 	}
@@ -178,6 +180,8 @@
 		position:relative;
     
 	}
+
+  
 	.tabs {
 		height:116px;
 		position: absolute;
@@ -188,7 +192,7 @@
 		height:116px;
 	}
 	.tabs li > a {
-		padding-top:60px;
+		padding-top:40px;
 		width:115px;
 		height:35px;
 		display:block;
@@ -437,6 +441,8 @@
 		width:430px;
 		margin-right:50px;
 	}
+  
+ 
 	/*-------------------------------------------------------*/
 		/* Resume */
 	/*-------------------------------------------------------*/
@@ -502,6 +508,8 @@
 		background:none;
 		border-top:1px solid #fdc62a;
 	}
+  
+  
 	/*-------------------------------------------------------*/
 		/* Menu */
 	/*-------------------------------------------------------*/
@@ -566,7 +574,6 @@
 	} 
 	.about h1 {
 		line-height:38px;
-		font-size:30px;
 		text-align:center;
 	}
 	.about h3 {
@@ -591,14 +598,16 @@
 	.personal-info li {
 		font-size:13px;
 	}
-
+  
+  
+  
 	.tabs {
 		padding-left:0px;
 	}
 
 	.tabs li > a {
-		width:75px;
-		font-size:14px;
+		width:50px;
+		font-size:12px;
 
 	}
   
