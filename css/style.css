@@ -31,9 +31,6 @@
 	h5 {font-size: 13px;}
 	
 	h3.sub-title {
-		background-image:url('../images/plus.png');
-		background-repeat: no-repeat;
-		background-position:left 2px;
 		margin:15px 2px;
 	}
 	h3.sub-title span {
