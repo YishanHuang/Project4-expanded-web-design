@@ -417,11 +417,9 @@
 	
 
 	/* Media Queries */
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 42.667em) and (max-width: 53.278) {
 	#container {
-		width:750px;
+		width:41.667em;
 	}
 	/*-------------------------------------------------------*/
 		/* Profile Section */
@@ -429,17 +427,17 @@
 	/* About */
 	
 	.about h1 {
-		line-height:38px;
-		font-size:30px
+		line-height:2.111em;
+		font-size:1.667em;
 	}
 	.about h3 {
-		font-size:14px;
-		line-height:14px;
+		font-size:0.778em;
+		line-height:0.778em;
 	}
 	/* Personal info */
 	.personal-info {
-		width:430px;
-		margin-right:50px;
+		width:23.889em;
+		margin-right:2.778em;
 	}
   
  
@@ -447,107 +445,29 @@
 		/* Resume */
 	/*-------------------------------------------------------*/
 	.timeline-section {
-		width:380px;
-		padding-right:30px;
+		width:21.111em;
+		padding-right:1.667em;
 	}
 	.skills-section {
-		width:300px;
+		width:16.667em;
 	}
 	
 		/* Portfolio */
 	
 	#portfolio-filter{
-		width:750px;
-		margin-right:10px;
+		width:41.667em;
+		margin-right:0.556em;
 	}
 	/
 		/* Contact */
-	
 	.contact-info {
-		width:250px;
+		width:13.889em;
 	}
 	.contact-form {
-		width:420px;
+		width:23.333em;
 	}
 }
 
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	#container {
-		width:470px;
-	}
-	
-		
-	.socialicons {
-		margin-top:9px;
-	}
-	
-	/* About */
-	.about {
-		width:420px;
-		display:block;
-	}
-	.about h1 {
-		line-height:38px;
-		font-size:30px
-	}
-	.about h3 {
-		font-size:14px;
-		line-height:14px;
-	}
-  
-  .about p {
-  text-align:center;
-  
-  }
-	/* Personal info */
-	.personal-info {
-		margin-top:0;
-		display:block;
-		width:420px;
-		background:none;
-		border-top:1px solid #fdc62a;
-	}
-  
-  
-	/*-------------------------------------------------------*/
-		/* Menu */
-	/*-------------------------------------------------------*/
-	.tabs {
-		padding-left:5px;
-	}
-	.timeline-section {
-		width:420px;
-		padding-right:60px;
-	}
-	/*-------------------------------------------------------*/
-		/* Resume */
-	/*-------------------------------------------------------*/
-	.skills-section {
-		width:420px;
-	}
-	.skills li h4 {
-		width:400px;
-	}
-	/*-------------------------------------------------------*/
-		/* Portfolio */
-	/*-------------------------------------------------------*/
-	#portfolio-filter{
-		width:420px;
-	}
-	/*-------------------------------------------------------*/
-		/* Contact */
-	/*-------------------------------------------------------*/
-	.contact-info {
-		width:420px;
-	}
-	.contact-form {
-		margin-top:20px;
-		width:420px;
-	}
-	
-
-}
 
 @media only screen and (max-width: 479px) {
 	
