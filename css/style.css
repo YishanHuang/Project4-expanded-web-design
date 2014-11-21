@@ -115,7 +115,6 @@
 	.about {
 		float:left;
 		margin-top:30px;
-		width:490px;
 		margin-left:20px;
 	}
 	.about .photo-inner {
@@ -150,7 +149,7 @@
 		float:left;
 		margin-top:30px;
 		min-height:230px;
-		margin-left:10px;
+		margin-left:110px;
     line-height: 1;
 		padding:20px 0 0 20px;
 	}
@@ -175,7 +174,9 @@
 	}
 
 	.menu {
+		height:100px;
 		position:relative;
+    
 	}
 	.tabs {
 		height:116px;
@@ -422,9 +423,7 @@
 		/* Profile Section */
 	/*-------------------------------------------------------*/
 	/* About */
-	.about {
-		width:410px;
-	}
+	
 	.about h1 {
 		line-height:38px;
 		font-size:30px
@@ -435,8 +434,8 @@
 	}
 	/* Personal info */
 	.personal-info {
-		width:280px;
-		margin-right:10px;
+		width:430px;
+		margin-right:50px;
 	}
 	/*-------------------------------------------------------*/
 		/* Resume */
@@ -472,7 +471,7 @@
 		width:470px;
 	}
 	
-		/* Top Section */
+		
 	.socialicons {
 		margin-top:9px;
 	}
@@ -490,6 +489,11 @@
 		font-size:14px;
 		line-height:14px;
 	}
+  
+  .about p {
+  text-align:center;
+  
+  }
 	/* Personal info */
 	.personal-info {
 		margin-top:0;
@@ -543,19 +547,6 @@
 		width:300px;
 				margin-top:10px;
 	}
-	
-	#logo h2 {
-		font-size:25px;
-		font-weight:900;
-		color: #444;
-		line-height:30px;
-	}
-  
-	#logo h4 {
-		color:#666;
-		line-height:15px;
-	}
-  
 	
 	div.top {
 		height:50px;
